@@ -1,18 +1,49 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+.DS_Store
+.ipynb_checkpoints
+node_modules
+/.bazelrc.user
+/.tf_configure.bazelrc
+/bazel-*
+/bazel_pip
+/tools/python_bin_path.sh
+/tensorflow/tools/git/gen
+/pip_test
+/_python_build
+*.pyc
+__pycache__
+*.swp
+.vscode/
+cmake_build/
+tensorflow/contrib/cmake/_build/
+.idea/**
+/build/
+[Bb]uild/
+/tensorflow/core/util/version_info.cc
+/tensorflow/python/framework/fast_tensor_util.cpp
+/tensorflow/lite/gen/**
+/tensorflow/lite/tools/make/downloads/**
+/tensorflow/lite/tools/make/gen/**
+/api_init_files_list.txt
+/estimator_api_init_files_list.txt
+*.whl
 
-# Other files and folders
-.settings/
+# Android
+.gradle
+.idea
+*.iml
+local.properties
+gradleBuild
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# iOS
+*.pbxproj
+*.xcworkspace
+/*.podspec
+/tensorflow/lite/**/coreml/**/BUILD
+/tensorflow/lite/**/ios/BUILD
+/tensorflow/lite/**/objc/BUILD
+/tensorflow/lite/**/swift/BUILD
+/tensorflow/lite/examples/ios/simple/data/*.tflite
+/tensorflow/lite/examples/ios/simple/data/*.txt
+Podfile.lock
+Pods
+xcuserdata
